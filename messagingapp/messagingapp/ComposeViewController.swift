@@ -19,9 +19,19 @@ class ComposeViewController: UIViewController {
     }
     
     @IBAction func addPost(_ sender: Any) {
+        
+        //TODO : Post the data to firebase
+        
+        
+        
+        //Dismiss the popover
+        presentingViewController?.dismiss(animated: true, completion: nil)
     }
     
     @IBAction func cancelPost(_ sender: Any) {
+        //Dismiss the popover
+        presentingViewController?.dismiss(animated: true, completion: nil)
+        
     }
     /*
     // MARK: - Navigation
