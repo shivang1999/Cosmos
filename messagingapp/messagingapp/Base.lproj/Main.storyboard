@@ -72,11 +72,13 @@
                                 <items>
                                     <navigationItem title="Compose" id="C2M-TE-wDe">
                                         <barButtonItem key="leftBarButtonItem" systemItem="trash" id="oTp-T5-CGJ">
+                                            <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="0.0"/>
                                             <connections>
                                                 <action selector="cancelPost:" destination="p1L-rh-tL3" id="sSq-Ht-ebV"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="Dzj-6e-ldF">
+                                            <inset key="imageInsets" minX="0.0" minY="9" maxX="0.0" maxY="0.0"/>
                                             <connections>
                                                 <action selector="addPost:" destination="p1L-rh-tL3" id="fap-DK-F63"/>
                                             </connections>
